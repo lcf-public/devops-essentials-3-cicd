@@ -1,6 +1,6 @@
 # Création du bucket S3
 resource "aws_s3_bucket" "website_bucket" {
-  bucket = "karim-test" # Remplacez par un nom unique
+  bucket = "karim-test1" # Remplacez par un nom unique
 }
 
 # # Politique du bucket pour permettre l'accès public en lecture
