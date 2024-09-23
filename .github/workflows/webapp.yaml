@@ -25,4 +25,4 @@ jobs:
         aws-region: "eu-west-1"
     - name: Deploy to AWS S3
       run: |
-        aws s3 cp webapp/index.html s3://lecloudfacile-myname-005/
+        aws s3 cp webapp/index.html s3://karim-test-123/
