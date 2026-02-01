@@ -1,10 +1,12 @@
-name: Deploy Pipeline For Terraform
+name: Deploy Pipeline For Terraform application
 
 on:
   pull_request:
-    types: [closed]
-  paths: 
-    - 'terraform/**'
+    types: [closed]  
+    branches:
+      - main 
+    paths: 
+      - 'terraform/**'
   
 jobs:
   terraform:
